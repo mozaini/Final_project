@@ -1,7 +1,6 @@
-import pandas as pd
 import requests as re
 import os
-def get_dataset(url, path):
+def get_dataset(url):
     """
         The following function will download the dataset from the internet using requests library and
         save it in the 'dataset' directory inside the current running direcroty.
